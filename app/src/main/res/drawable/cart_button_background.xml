@@ -1,0 +1,28 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <!-- Oval shape properties -->
+            <solid android:color="@color/dcd9d9" />
+        </shape>
+    </item>
+
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_pressed="true">
+                <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:shape="oval">
+                    <!-- Oval shape properties when pressed -->
+                    <solid android:color="@color/teal_700" />
+                </shape>
+            </item>
+            <item>
+                <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:shape="oval">
+                    <!-- Default oval shape properties -->
+                    <solid android:color="@color/dcd9d9" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:label="@string/ttl_login"
+        android:name="com.dev.ekart.LoginFragment"
+        tools:layout="@layout/fragment_login"
+        android:id="@+id/loginFragment">
+        <action android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@+id/signupFragment"/>
+        <action android:id="@+id/action_loginFragment_to_forgotpasswordverifyFragment"
+            app:destination="@+id/ForgotpasswordverifyFragment"/>
+    </fragment>
+
+    <fragment
+        android:label="@string/ttl_signup"
+        android:name="com.dev.ekart.SignupFragment"
+        tools:layout="@layout/fragment_signup"
+        android:id="@+id/signupFragment">
+        <action android:id="@+id/action_signupFragment_to_loginFragment"
+            app:destination="@+id/loginFragment"/>
+    </fragment>
+
+    <fragment
+        android:label="forgotpasswordverify"
+        android:name="com.dev.ekart.ForgotpasswordverifyFragment"
+        tools:layout="@layout/fragment_forgotpasswordverify"
+        android:id="@+id/ForgotpasswordverifyFragment">
+        <action android:id="@+id/action_ForgotpasswordverifyFragment_to_ForgotpasswordsetFragment"
+            app:destination="@+id/ForgotpasswordsetFragment"/>
+    </fragment>
+
+    <fragment
+        android:label="forgotpasswordset"
+        android:name="com.dev.ekart.ForgotpasswordsetFragment"
+        tools:layout="@layout/fragment_forgotpasswordset"
+        android:id="@+id/ForgotpasswordsetFragment">
+        <action android:id="@+id/action_ForgotpasswordsetFragment_to_loginFragment"
+            app:destination="@+id/loginFragment"/>
+    </fragment>
+
+    <fragment
+        android:label="changepassword"
+        android:name="com.dev.ekart.ChangepasswordFragment"
+        tools:layout="@layout/fragment_changepassword"
+        android:id="@+id/ChangepasswordFragment">
+    </fragment>
+
+    <fragment
+        android:label="editProfile"
+        android:name="com.dev.ekart.EditprofileFragment"
+        tools:layout="@layout/fragment_editprofile"
+        android:id="@+id/EditprofileFragment">
+    </fragment>
+
+    <fragment
+        android:label="viewProfile"
+        android:name="com.dev.ekart.ProfileFragment"
+        tools:layout="@layout/fragment_profile"
+        android:id="@+id/profileFragment">
+        <action android:id="@+id/action_ProfileFragment_to_CartFragment"
+            app:destination="@+id/CartFragment"/>
+        <action android:id="@+id/action_ProfileFragment_to_EditProfileFragment"
+            app:destination="@+id/EditprofileFragment"/>
+    </fragment>
+
+    <fragment
+        android:label="viewCart"
+        android:name="com.dev.ekart.CartFragment"
+        tools:layout="@layout/fragment_cart"
+        android:id="@+id/CartFragment">
+    </fragment>
+</navigation>
