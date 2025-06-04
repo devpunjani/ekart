@@ -18,46 +18,46 @@ Ekart is a Kotlin-based e-commerce Android application that allows users to brow
 ## 📸 Screenshots
 
 ### 🆕 Signup
-![Signup](screenshots/Signup.jpg)
+<img src="screenshots/Signup.jpg" alt="Signup" width="300">
 
 ### 🔐 Login
-![Login](screenshots/Login.jpg)
+<img src="screenshots/Login.jpg" alt="Login" width="300">
 
 ### 🏠 Home
-![Home](screenshots/Home.jpg)
+<img src="screenshots/Home.jpg" alt="Home" width="300">
 
 ### 🔍 Item Details
-![Item Details](screenshots/ItemDetails.jpg)
+<img src="screenshots/ItemDetails.jpg" alt="Item Details" width="300">
 
 ### ➕ Add Item (Admin)
-![Add Item](screenshots/AddItem.jpg)
+<img src="screenshots/AddItem.jpg" alt="Add Item" width="300">
 
 ### ✏️ Edit Item (Admin)
-![Edit Item](screenshots/EditItem.jpg)
+<img src="screenshots/EditItem.jpg" alt="Edit Item" width="300">
 
 ### 🙍 Profile
-![Profile](screenshots/Profile.jpg)
+<img src="screenshots/Profile.jpg" alt="Profile" width="300">
 
 ### 👤 Edit Profile
-![Edit Profile](screenshots/EditProfile.jpg)
+<img src="screenshots/EditProfile.jpg" alt="Edit Profile" width="300">
 
 ### 🛒 Cart
-![Cart](screenshots/Cart.jpg)
+<img src="screenshots/Cart.jpg" alt="Cart" width="300">
 
 ### ❤️ Wishlist
-![Wishlist](screenshots/Wishlist.jpg)
+<img src="screenshots/Wishlist.jpg" alt="Wishlist" width="300">
 
 ### 📦 Orders
-![Orders](screenshots/Orders.jpg)
+<img src="screenshots/Orders.jpg" alt="Orders" width="300">
 
 ### 🧾 Order Item
-![Order Item](screenshots/OrderItem.jpg)
+<img src="screenshots/OrderItem.jpg" alt="Order Item" width="300">
 
 ### ✅ Verify Email
-![Verify Email](screenshots/VerifyEmail.jpg)
+<img src="screenshots/VerifyEmail.jpg" alt="Verify Email" width="300">
 
 ### 🔑 Set Password
-![Set Password](screenshots/SetPassward.jpg)
+<img src="screenshots/SetPassward.jpg" alt="Set Password" width="300">
 
 ### 🔄 Change Password
-![Change Password](screenshots/ChangePassword.jpg)
+<img src="screenshots/ChangePassword.jpg" alt="Change Password" width="300">
